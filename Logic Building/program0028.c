@@ -1,0 +1,26 @@
+#include<stdio.h>     
+   
+void Display(int iNo)
+{
+    int iCnt = 0;
+
+    for(iCnt = 1; iCnt <= iNo; iCnt++)
+    {
+        printf("Jay ganesh...\n");
+    }
+
+}
+
+int main()
+
+{   
+    int iCnt = 0;
+    int iValue = 0;
+
+    printf("Enter the frequecy: ");
+    scanf("%d",&iValue);
+
+    Display(iValue);
+
+    return 0;
+}
